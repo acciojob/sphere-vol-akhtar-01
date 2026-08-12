@@ -4,7 +4,7 @@ function volume_sphere() {
     let volume=document.getElementById("volume");
 	
 	if(radius>=0 && !isNaN(r)){
-		int value=(4/3)*(3.14*r*r*r);
+		let value=(4/3)*(3.14*r*r*r);
 		volume.value=value.toFixed(4);
 	}else{
 		volume.value="NaN";
